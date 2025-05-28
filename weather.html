@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment on getting weather using API</title>
+    <link rel="shortcut icon" href="download.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="v.css">
+</head>
+<body>
+    <body>
+  <div class="weather-app">
+    <h1>Weather App</h1>
+    <input type="text" id="location-input" placeholder="Enter location..." />
+    <button id="get-weather-btn">Get Weather</button>
+    <div id="weather-result"></div>
+  </div>
+
+
+  <h3><a style="text-decoration: none; color: rgb(247, 49, 49);" href="./index.html">Go Back</a></h3>
+  <script>
+    const p =[23, 56, 78,78,67]
+    console.log(p.length);
+
+
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then (res => console.log(res[3].name.toUpperCase()))
+
+  </script>
+  <script src="v.js"></script>
+</body>
+</html>

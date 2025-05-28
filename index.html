@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Portfolio Website - Eazy Tutorials</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="shortcut icon" href="download.jpg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/cc41a8dcd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <div id="logo">
+          <img src="vecteezy_ai-generated-red-and-black-border-frame-png-transparent_39242552.png" class="logo" alt="Logo" />
+        </div>
+                <ul id="sitemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact ">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i id="menuicon" class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>HI, I'm <span>Lasisi</span> <br /> Moshood From Nigeria</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="03951bcd-35ac-4e6c-a2c6-fe144ed81ffe.jpg" alt="User Image" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Click on the remaining Texts for more info.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+            <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+            <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+              <li><span>Web Development</span><br />Web app Development</li>
+              <li><span>App Development</span><br />Intermediate Level 3D Animator with Blender.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2019-2021</span><br />Team Lead at a Group Project.</li>
+              <li><span>2021-Current</span><br />Student Game Developer at Scratch & Godot.</li>
+              <li><span>2017-2019</span><br />Building Android/IOS apps</li>
+              <li><span>2016-2017</span><br />Internship at Turner Shop and a beginner 2D animator.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br />UI/UX Designer at Aptech Alagbole.</li>
+              <li><span>2016</span><br />Spanking from Brother Joseph.</li>
+              <li><span>2014</span><br />... Why are you reading this part? Scroll Down Nau.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div class="box">
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Nothing Here Just Wasting your Time.</p>
+          <a href="https://www.w3schools.com/">Learn More</a>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... But I'm sure you fillin this site though fam. </p>
+          <a href="https://www.lookmovie2.to/movies/">Learn More</a>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-pencil"></i>
+          <h2>Animator</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Are you literally looking at words amongst this beauty?</p>
+          <a href="https://extensions.blender.org/">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="5319dc9e-9594-4dbd-8940-19b57f4bcec1.jpg" alt="" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the talented people around the world. Download it form play store... At this point you're more interested in the notes in this thing.</p>
+            <a href="https://www.youtube.com/results?search_query=moon"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="bfc824d4-031c-4ce3-a90e-d3facfbe0387.jpg" alt="" />
+          <div class="layer">
+            <h3>Picture App</h3>
+            <p>An AI assisted camera that takes best meme photos. Your safety is guranteed... And this is mostly Rubbish.</p>
+            <a href="https://www.youtube.com/results?search_query=cool+cat"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="4850268f-c270-41c3-9b8e-f36bbf68bd10.jpg" alt="" />
+          <div class="layer">
+            <h3>List App</h3>
+            <p>The app connects you to the talented people around the world. Download it form play store... Nigga look at my site not the notes sheesh</p>
+            <a href="https://www.youtube.com/results?search_query=money"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="./Gallery.html" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i>08065267206</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="Your_reaction_at_this_moment.jpg" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" ondblclick="cancl()" onclick="apologise()" class="btn btn2">Submit</button>
+            <p id="mess" style="color: yellowgreen; display: none;"> I'm sorry, but im not developed enough to do this.😥</p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Moshman. Made with <i class="fa-solid fa-heart"></i> By Lasisi Moshood.
+      </p>
+    </div>
+  </div>
+
+  <!-- JS Scripts -->
+  <script>
+    var  mess = document.getElementById("mess");
+    const tablinks = document.getElementsByClassName("tab-links");
+    const tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+      for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    function apologise(){
+        mess.style.display = "block"
+    }
+    function cancl(){
+        mess.style.display = "none"
+    }
+
+    const sidemenu = document.getElementById("sitemenu");
+    const menuicon = document.getElementById("menuicon");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+      menuicon.style.display = "none";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-170px";
+      menuicon.style.display = "block";
+    }
+
+    // Animate boxes in services-list on scroll and load
+    function animateVisibleBoxes() {
+      const boxes = document.querySelectorAll(".services-list .box");
+      boxes.forEach((box) => {
+        const rect = box.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          box.classList.add("animate");
+        }
+      });
+    }
+    window.addEventListener("scroll", animateVisibleBoxes);
+    window.addEventListener("load", animateVisibleBoxes);
+
+    // IntersectionObserver to animate service boxes after 5 seconds visible
+    const serviceSection = document.getElementById("services");
+    const serviceBoxes = document.querySelectorAll(".services-list .box");
+    let animationTimeout;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animationTimeout = setTimeout(() => {
+              serviceBoxes.forEach((box) => {
+                box.classList.add("animate");
+              });
+
+              setTimeout(() => {
+                serviceBoxes.forEach((box) => {
+                  box.classList.remove("animate");
+                });
+              }, 1000); // match animation duration
+            }, 5000); // 5 seconds delay
+          } else {
+            clearTimeout(animationTimeout);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    observer.observe(serviceSection);
+  </script>
+</body>
+</html>
